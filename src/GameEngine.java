@@ -27,7 +27,8 @@ public class GameEngine implements ActionListener{
 	}
 	
 	public void launch() {
-		
+		//Launch Start window
+		//
 	}
 	
 	public void isEnd() {
@@ -36,7 +37,6 @@ public class GameEngine implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
-	}
 	
+	}
 }
