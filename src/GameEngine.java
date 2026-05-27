@@ -12,23 +12,28 @@ import javax.swing.*;
 
 public class GameEngine implements ActionListener{
 
-	//private Board board;
+	private Board board;
 	private JFrame frame;
 	private JButton launchEasyButton;
 	private JButton launchHardButton;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		GameEngine engine = new GameEngine();
+		engine.launch();
 	}
 	
 	public GameEngine() {
-		
+		frame = new JFrame("Star wars Battleship");
+		launchEasyButton = new JButton("Easy");
+		launchHardButton = new JButton("Hard");
 	}
 	
 	public void launch() {
-		//Launch Start window
-		//
+		
+		
+		frame.setSize(960,540);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(3);
 	}
 	
 	public void isEnd() {
